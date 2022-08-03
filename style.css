@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar */
+  .navbar-brand {
+    font-weight: bold;
+  }
+  .navbar-collapse .nav-item a {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  .navbar-collapse .nav-item a i {
+    font-size: 10px;
+  }
+  .navbar-collapse form .btn {
+    padding: 8px 18px;
+    background-color: #00ba94;
+    color: white;
+    font-weight: 500;
+  }
+  .navbar-collapse form .btn i {
+    font-size: 12px;
+  }
+  
+  /* Main */
+  .container-fluid {
+    background: url("/assets/img/Sb-ui-kit.jpg") no-repeat center/cover;
+    width: 100%;
+    height: 110vh;
+  }
+  @media (max-width: 768px) {
+    .container-fluid {
+      height: 125vh;
+    }
+    .container-fluid .page-title {
+      margin-top: 190px !important;
+    }
+  }
+  .container-fluid::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 125vh;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  .container-fluid {
+    clip-path: polygon(100% 0, 0 0, 0 81%, 100% 75%);
+  }
+  .page-content {
+    z-index: 2;
+    color: white;
+  }
+  .container-fluid .page-title {
+    margin-top: 230px;
+    font-size: 2.6rem;
+  }
+  .container .page-text {
+    color: darkgray;
+    font-size: 1.15rem;
+  }
+  .container input {
+    padding: 10px 10px;
+  }
+  @media (max-width: 768px) {
+    .container input {
+      margin-bottom: 10px;
+    }
+  }
+  .page-content .container .btn {
+    background-color: #00ba94;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .browse-business {
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+    padding: 120px 0 230px 0;
+  }
+  .browse-business {
+    margin-top: -250px;
+  }
+  .browse-business h6 {
+    font-weight: 700;
+  }
+  .browse-business .lead {
+    font-weight: 400;
+    color: gray;
+  }
+  .browse-business .card .card-text {
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(85, 82, 82);
+  }
+  .browse-business .card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+      rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    transition: 0.5s;
+  }
+  .browse-business .card:hover {
+    transform: translateY(-0.3333rem) !important;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+      rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+      rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+      rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  .new-businesses {
+    padding: 120px 0;
+  }
+  .new-businesses .card-body .card-text i {
+    color: orange;
+  }
+  .new-businesses .card footer {
+    border-top: 1px solid lightgray;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .new-businesses .card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.5s;
+  }
+  .new-businesses .card:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .latest-news {
+    z-index: 666;
+    position: relative;
+    margin-top: -9rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .latest-news .card-body p {
+    color: grey;
+    font-weight: 400;
+  }
+  .latest-news .card-body .form-control {
+    background-color: rgb(217, 226, 227);
+  }
+  .latest-news .card-body {
+    border-radius: 8px;
+  }
+  .latest-news .card-body .small {
+    color: grey;
+    font-weight: 500;
+  }
+  footer {
+    padding: 10rem 0 20px;
+    color: silver;
+  }
+  .footer .footer-brand h5 {
+    font-weight: 500;
+  }
+  footer .list-unstyled a {
+    text-decoration: none;
+    color: silver;
+    font-size: 14px;
+  }
+  footer .icon-list-social {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  footer .privacy a {
+    text-decoration: none;
+    color: silver;
+  }
+  footer .text-uppercase-expanded {
+    font-weight: bold;
+  }
+  footer {
+    clip-path: polygon(0 9%, 100% 0, 100% 100%, 0% 100%);
+  }
